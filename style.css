@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 139, 82));
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100vh;
+}
+.from{
+  background: white;
+  box-shadow: 0px 0px 10px gray;
+  padding: 20px;
+  width: 310px;
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+  font-size: 20px;
+  color: #DF7628;
+}
+.link{
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+    text-align: center;
+    border: 2px solid #DF7628;
+    border-radius: 5px;
+    padding: 5px;
+    color: #8B28DF;
+}
+.btn{
+    width: 314px;
+    display: block;
+    background-color: #DF7628;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.links{
+  display: none;
+  transition: 1.0s;
+}
+.links.active{
+  display: block;
+}
+.result{
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  border: 2px solid #DF7628;
+  margin-top: 15px;
+  text-align: center;
+  border: 2px solid #DF7628;
+  border-radius: 5px;
+  padding: 5px;
+  color: #8B28DF;
+}
+.clipboard{
+  position: relative;
+  margin-left: 279px;
+  margin-top: 20px;
+  background: none;
+  width: 30px;
+  height: 34px;
+  border: none;
+  text-align: center;
+  font-size: 28px;
+}
